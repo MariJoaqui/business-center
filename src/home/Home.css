@@ -3,7 +3,7 @@
   background: linear-gradient( 
     rgba(255, 255, 255, 0.5) 100%,
     rgba(255, 255, 255, 0.5) 100%),
-    url("../files/images/background.png");
+    url("../files/images/background-1.png");
   background-size: cover;
   height: 42rem;
 }
@@ -51,6 +51,13 @@
   background: #CE6109;
 }
 
+/* About us */
+.about-us {
+  background: url("../files/images/background-2.png");
+  background-size: cover;
+  display: flex;
+}
+
 @media (max-width: 1210px) {
 
   /* Home */
@@ -65,9 +72,6 @@
 @media (max-width: 715px) {
 
   /* Home */
-  .home {
-    height: 29rem;
-  }
   .home .navbar .logo {
     height: 4rem;
     padding: 1rem;
@@ -81,22 +85,17 @@
     width: 1.6rem;
   }
   .home .text h1 {
-    font-size: 1.3rem;
-    line-height: 1.4rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     margin: 3rem 3rem 0 2rem !important;
   }
   .home .text h4 {
-    font-size: 1.1rem;
-    line-height: 1.2rem;
+    line-height: 1.6rem;
     margin: 0.7rem 3rem 3rem 2rem !important;
   }
   .home .text a {
-    font-size: 1.2rem;
     margin-left: 2rem;
-  }
-  .home .text a {
     border-radius: 0 5rem 5rem 0;
-    padding: 0.5rem 1.3rem;
   }
 
 }

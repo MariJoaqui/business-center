@@ -4,7 +4,7 @@ import "./Home.css";
 function Home( props ) {
   return (
     <div className="body">
-      <div className="home">
+      <div className="home"> 
         <div className="navbar">
           <img
             className="logo"
@@ -30,8 +30,8 @@ function Home( props ) {
           </a>
         </div>
       </div>
-      <div>
-        sdddferrf
+      <div className="about-us">
+        
       </div>
     </div>
   );
