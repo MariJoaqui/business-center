@@ -110,6 +110,25 @@ h2 {
     margin: 0.7rem 5rem 3rem 5rem !important;
   }
 
+  /* About us */
+  .about-us .text h2 {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+  }
+  .about-us img {
+    margin-right: 5rem;
+  }
+  .about-us .text p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+}
+@media (max-width: 900px) {
+
+  /* About us */
+  
+
 }
 @media (max-width: 715px) {
 
