@@ -31,7 +31,21 @@ function Home( props ) {
         </div>
       </div>
       <div className="about-us">
-        
+        <img src={ require("../files/images/quienes-somos.jpg") } />
+        <div className="text">
+          <h2>¿Quiénes somos?</h2>
+          <p>
+            Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica, 
+            alineados bajo una visión que nos permite crear sinergia para potencializar el 
+            crecimiento de su empresa.
+          </p>
+          <a href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            Saber más
+          </a>
+        </div>
+      </div>
+      <div>
+        drgtgt<br></br>uuuy
       </div>
     </div>
   );
