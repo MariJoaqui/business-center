@@ -1,9 +1,20 @@
 import React from "react";
 import "./Home.css";
 
+// Components
+import Icons from "../shared/icons/icons";
+
 function Home( props ) {
+  const icons = [
+    { src: require("../files/images/i-whatsapp.png"), href: "#" },
+    { src: require("../files/images/i-instagram.png"), href: "https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+    { src: require("../files/images/i-youtube.png"), href: "#" }
+  ];
+
   return (
     <div className="body">
+
+      { /* ---------- Section 1 ---------- */ }
       <div className="home"> 
         <div className="navbar">
           <img
@@ -11,15 +22,9 @@ function Home( props ) {
             src={ require("../files/images/logo-1.png") } 
           />
           <div className="icons">
-            <a href="#">
-              <img src={ require("../files/images/i-whatsapp.png") } />
-            </a>
-            <a href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-              <img src={ require("../files/images/i-instagram.png") } />
-            </a>
-            <a href="#">
-              <img src={ require("../files/images/i-youtube.png") } />
-            </a>
+            { icons.map((icon, index) => (
+              <Icons key={ index } src={ icon.src } href={ icon.href } />
+            ))}
           </div>
         </div>
         <div className="text">
@@ -30,6 +35,8 @@ function Home( props ) {
           </a>
         </div>
       </div>
+
+      { /* ---------- Section 2 ---------- */ }
       <div className="about-us">
         <img src={ require("../files/images/quienes-somos.jpg") } />
         <div className="text">
@@ -44,6 +51,8 @@ function Home( props ) {
           </a>
         </div>
       </div>
+
+      { /* ---------- Section 3 ---------- */ }
       <div>
         drgtgt<br></br>uuuy
       </div>
