@@ -1,15 +1,30 @@
 import React from "react";
 import "./Home.css";
 
+import { useKeenSlider } from "keen-slider/react"
+import "keen-slider/keen-slider.min.css"
+
 // Components
 import Icons from "../shared/icons/icons";
 
 function Home( props ) {
+
+  { /* Icons */ }
   const icons = [
     { src: require("../files/images/i-whatsapp.png"), href: "#" },
     { src: require("../files/images/i-instagram.png"), href: "https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
     { src: require("../files/images/i-youtube.png"), href: "#" }
   ];
+
+  { /* Slider */ }
+  const [sliderRef] = useKeenSlider({
+    loop: true,
+    rtl: true,
+    slides: {
+      perView: 3,
+      spacing: 80,
+    },
+  })
 
   return (
     <div className="body">
@@ -55,8 +70,21 @@ function Home( props ) {
       </div>
 
       { /* ---------- Section 3 ---------- */ }
-      <div>
-        drgtgt<br></br>uuuy
+      <div className="services">
+        <h2>Nuestros Servicios</h2>
+
+        <div ref={sliderRef} className="keen-slider">
+          <div className="keen-slider__slide number-slide1 flex column">
+            <img src={ require("../files/images/servicios-1.jpg") } />
+            <h5>Páginas Web</h5>
+            <h6>Servicio de Diseño y Desarrollo Web</h6>
+          </div>
+          <div className="keen-slider__slide number-slide2">2</div>
+          <div className="keen-slider__slide number-slide3">3</div>
+          <div className="keen-slider__slide number-slide4">4</div>
+          <div className="keen-slider__slide number-slide5">5</div>
+          <div className="keen-slider__slide number-slide6">6</div>
+        </div>
       </div>
     </div>
   );
