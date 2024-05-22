@@ -1,21 +1,12 @@
-/* Global */
-h2 {
-  color: #0C2384;
-  font-size: 3rem;
-  margin: 0;
-}
-
 /* Home */
 .home {
-  background: linear-gradient( 
+  background: linear-gradient(
     rgba(255, 255, 255, 0.5) 100%,
-    rgba(255, 255, 255, 0.5) 100%),
+    rgba(255, 255, 255, 0.5) 100%), 
     url("../files/images/background-1.png");
   background-size: cover;
-  height: 42rem;
 }
 .home .navbar {
-  display: flex; 
   justify-content: space-between;
 }
 .home .navbar .logo {
@@ -24,10 +15,7 @@ h2 {
   width: 14rem;
 }
 .home .navbar .icons {
-  background: #0C2384;
   border-radius: 0 0 0 2rem;
-  display: flex;
-  flex-direction: column;
   padding: 1.5rem 1.1rem;
 }
 .home .navbar .icons img {
@@ -35,24 +23,16 @@ h2 {
   width: 2rem;
 }
 .home .text h1 {
-  font-size: 2.6rem;
   line-height: 3rem;
   margin: 2.3rem 40% 0 5rem !important;
 }
 .home .text h4 {
-  color: #0C2384;
-  font-size: 1.5rem;
   margin: 0.7rem 55% 3rem 5rem !important;
 }
 .home .text a {
-  background: #F47E1F;
   border-radius: 5rem;
-  color: #FFFFFF;
-  font-size: 1.4rem;
-  font-weight: 600;
   margin-left: 5rem;
   padding: 0.6rem 1.8rem;
-  text-decoration: none;
 }
 .home .text a:hover {
   background: #CE6109;
@@ -62,7 +42,6 @@ h2 {
 .about-us {
   background: url("../files/images/background-2.png");
   background-size: cover;
-  display: flex;
   padding: 9rem 5rem 9rem 0;
 }
 .about-us img {
@@ -73,32 +52,20 @@ h2 {
   width: 45%;
 }
 .about-us .text {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 .about-us .text p {
-  color: #000000;
-  font-size: 1.5rem;
-  font-weight: 500;
   line-height: 2rem;
   margin-bottom: 4rem;
 }
 .about-us .text a {
-  background: #F47E1F;
   border-radius: 0 5rem 5rem 0;
-  color: #FFFFFF;
-  font-size: 1.4rem;
-  font-weight: 600;
   padding: 0.6rem 1.8rem;
-  text-decoration: none;
   width: 8rem;
 }
 .about-us .text a:hover {
   background: #CE6109;
 }
-
-
 
 @media (max-width: 1210px) {
 
@@ -122,12 +89,6 @@ h2 {
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
   }
-
-}
-@media (max-width: 900px) {
-
-  /* About us */
-  
 
 }
 @media (max-width: 715px) {

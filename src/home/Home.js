@@ -16,12 +16,12 @@ function Home( props ) {
 
       { /* ---------- Section 1 ---------- */ }
       <div className="home"> 
-        <div className="navbar">
+        <div className="navbar flex">
           <img
             className="logo"
             src={ require("../files/images/logo-1.png") } 
           />
-          <div className="icons">
+          <div className="icons flex column blue-bg">
             { icons.map((icon, index) => (
               <Icons key={ index } src={ icon.src } href={ icon.href } />
             ))}
@@ -29,24 +29,26 @@ function Home( props ) {
         </div>
         <div className="text">
           <h1>Centro de soluciones digitales que ayudarán a crecer tu negocio en el mundo.</h1>
-          <h4>Ayudamos a crecer empresas desde el 2008.</h4>
-          <a href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+          <h4 className="blue-text">Ayudamos a crecer empresas desde el 2008.</h4>
+          <a className="white-text orange-bg"
+             href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             Más información
           </a>
         </div>
       </div>
 
       { /* ---------- Section 2 ---------- */ }
-      <div className="about-us">
+      <div className="about-us flex">
         <img src={ require("../files/images/quienes-somos.jpg") } />
-        <div className="text">
+        <div className="text flex column">
           <h2>¿Quiénes somos?</h2>
           <p>
             Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica, 
             alineados bajo una visión que nos permite crear sinergia para potencializar el 
             crecimiento de su empresa.
           </p>
-          <a href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+          <a className="white-text orange-bg"
+             href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             Saber más
           </a>
         </div>
