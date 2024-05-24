@@ -76,19 +76,26 @@
 }
 [class^="number-slide"],
 [class*=" number-slide"] {
-  align-items: center;
   background: #FFFFFF;
   border-radius: 2rem;
   box-shadow: 0px 5px 5px #686868;
-  display: flex;
-  height: 30rem;
-  justify-content: center;
+  height: 25rem;
   margin: 3rem 0;
-  max-height: 100vh;
+  padding: 1.5rem;
+  text-align: left;
 }
 .services .keen-slider__slide img {
-  padding: 1rem;
+  border-radius: 1rem;
+  height: 17rem;
+  margin-bottom: 1.4rem;
   width: 100%;
+}
+.services .keen-slider__slide h5,
+.services .keen-slider__slide h6 {
+  margin: 0 0 0.5rem 0;
+}
+.services .keen-slider__slide h6 {
+  font-weight: 500;
 }
 
 @media (max-width: 1355px) {

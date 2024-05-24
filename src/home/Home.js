@@ -22,7 +22,7 @@ function Home( props ) {
     rtl: true,
     slides: {
       perView: 3,
-      spacing: 80,
+      spacing: 140,
     },
   })
 
@@ -79,12 +79,35 @@ function Home( props ) {
             <h5>Páginas Web</h5>
             <h6>Servicio de Diseño y Desarrollo Web</h6>
           </div>
-          <div className="keen-slider__slide number-slide2">2</div>
-          <div className="keen-slider__slide number-slide3">3</div>
-          <div className="keen-slider__slide number-slide4">4</div>
-          <div className="keen-slider__slide number-slide5">5</div>
-          <div className="keen-slider__slide number-slide6">6</div>
+          <div className="keen-slider__slide number-slide1 flex column">
+            <img src={ require("../files/images/servicios-1.jpg") } />
+            <h5>Páginas Web</h5>
+            <h6>Servicio de Diseño y Desarrollo Web</h6>
+          </div>
+          <div className="keen-slider__slide number-slide1 flex column">
+            <img src={ require("../files/images/servicios-1.jpg") } />
+            <h5>Páginas Web</h5>
+            <h6>Servicio de Diseño y Desarrollo Web</h6>
+          </div>
+          <div className="keen-slider__slide number-slide1 flex column">
+            <img src={ require("../files/images/servicios-1.jpg") } />
+            <h5>Páginas Web</h5>
+            <h6>Servicio de Diseño y Desarrollo Web</h6>
+          </div>
+          <div className="keen-slider__slide number-slide1 flex column">
+            <img src={ require("../files/images/servicios-1.jpg") } />
+            <h5>Páginas Web</h5>
+            <h6>Servicio de Diseño y Desarrollo Web</h6>
+          </div>
+          <div className="keen-slider__slide number-slide1 flex column">
+            <img src={ require("../files/images/servicios-1.jpg") } />
+            <h5>Páginas Web</h5>
+            <h6>Servicio de Diseño y Desarrollo Web</h6>
+          </div>
         </div>
+
+        <h4>Somos la empresa más completa del mercado.</h4>
+        <h6>Para más información consulta aquí.</h6>
       </div>
     </div>
   );
