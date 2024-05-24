@@ -16,15 +16,21 @@ function Home( props ) {
     { src: require("../files/images/i-youtube.png"), href: "#" }
   ];
 
+  { /* Services */ }
+  const services = [
+    { src: require("../files/images/i-whatsapp.png"), href: "#" },
+    { src: require("../files/images/i-instagram.png"), href: "https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+    { src: require("../files/images/i-youtube.png"), href: "#" }
+  ];
+
   { /* Slider */ }
   const [sliderRef] = useKeenSlider({
     loop: true,
-    rtl: true,
     slides: {
       perView: 3,
-      spacing: 140,
+      spacing: 70,
     },
-  })
+  });
 
   return (
     <div className="body">
