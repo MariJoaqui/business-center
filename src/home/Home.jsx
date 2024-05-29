@@ -99,17 +99,7 @@ function Home(props) {
       <div className="services">
         <h2>Nuestros Servicios</h2>
         {loaded && instanceRef.current && (
-          <>
-            <Arrow
-              onClick={(e) =>
-                e.stopPropagation() || instanceRef.current?.next()
-              }
-              disabled={
-                currentSlide ===
-                instanceRef.current.track.details.slides.length - 1
-              }
-            />
-          </>
+          <SlideButton onClick={(e) => e.stopPropagation() || instanceRef.current?.next()} />
         )}
         <div ref={sliderRef} className="keen-slider">
           {cards.map((card, index) => (
@@ -123,10 +113,9 @@ function Home(props) {
   );
 }
 
-function Arrow(props) {
-  const disabled = props.disabled ? " arrow--disabled" : ""
+function SlideButton(click) {
   return (
-    <button onClick={props.onClick} className={`arrow ${props.left ? "arrow--left" : "arrow--right"} ${disabled}`}>
+    <button onClick={click.onClick}>
       Desliza <i class="fa-solid fa-arrow-right"></i>
     </button>
   )
