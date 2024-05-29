@@ -71,7 +71,7 @@
 /* Services */
 .services {
   background: #FFEEE0;
-  padding: 7rem;
+  padding: 5rem 7rem;
   text-align: center;
 }
 [class^="number-slide"],
@@ -82,6 +82,27 @@
   margin: 1rem 0;
   text-align: left;
 } 
+
+
+
+
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+
+
 
 @media (max-width: 1355px) {
 

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 
-import { useKeenSlider } from "keen-slider/react"
-import "keen-slider/keen-slider.min.css"
+// Slider
+import { useKeenSlider } from "keen-slider/react";
+import "keen-slider/keen-slider.min.css";
 
 // Components
 import Icons from "../shared/icons/Icons";
@@ -34,11 +35,20 @@ function Home(props) {
   ];
 
   { /* Slider */ }
-  const [sliderRef] = useKeenSlider({
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [loaded, setLoaded] = useState(false);
+  const [sliderRef, instanceRef] = useKeenSlider({
     loop: true,
     slides: {
       perView: 3,
       spacing: 70,
+    },
+    initial: 0,
+    slideChanged(slider) {
+      setCurrentSlide(slider.track.details.rel);
+    },
+    created() {
+      setLoaded(true);
     },
   });
 
@@ -88,6 +98,19 @@ function Home(props) {
       { /* ---------- Section 3 ---------- */}
       <div className="services">
         <h2>Nuestros Servicios</h2>
+        {loaded && instanceRef.current && (
+          <>
+            <Arrow
+              onClick={(e) =>
+                e.stopPropagation() || instanceRef.current?.next()
+              }
+              disabled={
+                currentSlide ===
+                instanceRef.current.track.details.slides.length - 1
+              }
+            />
+          </>
+        )}
         <div ref={sliderRef} className="keen-slider">
           {cards.map((card, index) => (
             <Cards key={index} title={card.title} description={card.description} src={card.src} />
@@ -98,6 +121,15 @@ function Home(props) {
       </div>
     </div>
   );
+}
+
+function Arrow(props) {
+  const disabled = props.disabled ? " arrow--disabled" : ""
+  return (
+    <button onClick={props.onClick} className={`arrow ${props.left ? "arrow--left" : "arrow--right"} ${disabled}`}>
+      Desliza <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  )
 }
 
 export default Home;
