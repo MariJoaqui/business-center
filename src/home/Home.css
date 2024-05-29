@@ -16,12 +16,9 @@
   width: 15rem;
 }
 .home .navbar .icons {
+  align-items: center;
   border-radius: 0 0 0 2rem;
   padding: 1.5rem 1.1rem;
-}
-.home .navbar .icons img {
-  padding: 0.5rem 0;
-  width: 2rem;
 }
 .home .text h1 {
   line-height: 3.4rem;

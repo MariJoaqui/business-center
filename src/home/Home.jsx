@@ -13,9 +13,9 @@ function Home(props) {
 
   { /* Icons */ }
   const icons = [
-    { src: require("../files/images/i-whatsapp.png"), href: "#" },
-    { src: require("../files/images/i-instagram.png"), href: "https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
-    { src: require("../files/images/i-youtube.png"), href: "#" }
+    { icon: "whatsapp", href: "#" },
+    { icon: "instagram", href: "#" },
+    { icon: "youtube", href: "#" },
   ];
 
   { /* Cards */ }
@@ -64,7 +64,7 @@ function Home(props) {
           />
           <div className="icons flex column blue-bg">
             {icons.map((icon, index) => (
-              <Icons key={index} src={icon.src} href={icon.href} />
+              <Icons key={index} icon={icon.icon} href={icon.href} />
             ))}
           </div>
         </div>

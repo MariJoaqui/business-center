@@ -1,9 +1,10 @@
 import React from "react";
 
-function Icons({ src, href }) {
+function Icons({ icon, href }) {
+
   return (
     <a href={href}>
-      <img src={src} alt="icons" />
+      <i className={`fa-brands fa-${icon} white-text`} ></i>
     </a>
   );
 }
