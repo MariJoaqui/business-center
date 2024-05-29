@@ -5,10 +5,10 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
 // Components
-import Icons from "../shared/icons/Icons.js";
-import Cards from "../shared/cards/Cards.js";
+import Icons from "../shared/icons/Icons";
+import Cards from "../shared/cards/Cards";
 
-function Home( props ) {
+function Home(props) {
 
   { /* Icons */ }
   const icons = [
@@ -17,7 +17,7 @@ function Home( props ) {
     { src: require("../files/images/i-youtube.png"), href: "#" }
   ];
 
-  { /* Services */ }
+  { /* Cards */ }
   const cards = [
     { title: "Secretaría remota", description: "Asistencia administrativa profesional sin necesidad de contratar personal a tiempo completo.", src: require("../files/images/servicios-1.jpg") },
     { title: "CRM Gestión de clientes", description: "Optimiza la relación con tus clientes mediante sistemas CRM personalizados.", src: require("../files/images/servicios-2.jpg") },
@@ -45,16 +45,16 @@ function Home( props ) {
   return (
     <div className="body">
 
-      { /* ---------- Section 1 ---------- */ }
-      <div className="home"> 
+      { /* ---------- Section 1 ---------- */}
+      <div className="home">
         <div className="navbar flex">
           <img
             className="logo"
-            src={ require("../files/images/logo-1.png") } 
+            src={require("../files/images/logo-1.png")}
           />
           <div className="icons flex column blue-bg">
-            { icons.map((icon, index) => (
-              <Icons key={ index } src={ icon.src } href={ icon.href } />
+            {icons.map((icon, index) => (
+              <Icons key={index} src={icon.src} href={icon.href} />
             ))}
           </div>
         </div>
@@ -62,35 +62,35 @@ function Home( props ) {
           <h1>Centro de soluciones digitales que ayudarán a crecer tu negocio en el mundo.</h1>
           <h4 className="blue-text">Ayudamos a crecer empresas desde el 2008.</h4>
           <a className="white-text orange-bg"
-             href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             Más información
           </a>
         </div>
       </div>
 
-      { /* ---------- Section 2 ---------- */ }
+      { /* ---------- Section 2 ---------- */}
       <div className="about-us flex">
-        <img src={ require("../files/images/quienes-somos.jpg") } />
+        <img src={require("../files/images/quienes-somos.jpg")} />
         <div className="text flex column">
           <h2>¿Quiénes somos?</h2>
           <p>
-            Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica, 
-            alineados bajo una visión que nos permite crear sinergia para potencializar el 
+            Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica,
+            alineados bajo una visión que nos permite crear sinergia para potencializar el
             crecimiento de su empresa.
           </p>
           <a className="white-text orange-bg"
-             href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             Saber más
           </a>
         </div>
       </div>
 
-      { /* ---------- Section 3 ---------- */ }
+      { /* ---------- Section 3 ---------- */}
       <div className="services">
         <h2>Nuestros Servicios</h2>
         <div ref={sliderRef} className="keen-slider">
-          { cards.map((card, index) => (
-            <Cards key={ index } title={ card.title } description={ card.description } src={ card.src } />
+          {cards.map((card, index) => (
+            <Cards key={index} title={card.title} description={card.description} src={card.src} />
           ))}
         </div>
         <h4>Somos la empresa más completa del mercado.</h4>
