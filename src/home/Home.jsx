@@ -108,7 +108,7 @@ function Home(props) {
           ))}
         </div>
         <h4>Somos la empresa más completa del mercado.</h4>
-        <h6>Para más información consulta aquí.</h6>
+        <h6 className="text">Para más información consulta <a href="#">aquí.</a></h6>
       </div>
     </div>
   );

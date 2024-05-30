@@ -101,6 +101,23 @@
 .slide-button:hover {
   color: #CE6109;
 }
+.services h4 {
+  font-weight: 500;
+  margin: 2rem 0 0 0;
+}
+.services .text {
+  color: #CE6109;
+  font-weight: 500;
+  margin: 0.2rem 0 0 0;
+}
+.services h6 a {
+  color: #0C2384;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.services h6 a:hover {
+  color: #020F49;
+}
 
 @media (max-width: 1355px) {
 
