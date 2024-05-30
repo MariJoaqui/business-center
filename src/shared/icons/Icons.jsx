@@ -1,11 +1,11 @@
 import React from "react";
 
-function Icons({ icon, href }) {
+function Icons({ src, href }) {
 
   // Arreglar los íconos
   return (
     <a href={href}>
-      <i className={`fa-brands fa-${icon} fa-lg white-text icon`} ></i>
+      <img src={src} alt="icons" />
     </a>
   );
 }

@@ -13,9 +13,9 @@ function Home(props) {
 
   { /* Icons */ }
   const icons = [
-    { icon: "whatsapp", href: "#" },
-    { icon: "instagram", href: "#" },
-    { icon: "youtube", href: "#" },
+    { src: require("../files/images/i-whatsapp.png"), href: "#" },
+    { src: require("../files/images/i-instagram.png"), href: "https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+    { src: require("../files/images/i-youtube.png"), href: "#" }
   ];
 
   { /* Cards */ }
@@ -64,8 +64,7 @@ function Home(props) {
           />
           <div className="icons flex column blue-bg">
             {icons.map((icon, index) => (
-              <Icons key={index} icon={icon.icon} href={icon.href} />
-            ))}
+              <Icons key={index} src={icon.src} href={icon.href} />))}
           </div>
         </div>
         <div className="text">
@@ -99,7 +98,9 @@ function Home(props) {
       <div className="services">
         <h2>Nuestros Servicios</h2>
         {loaded && instanceRef.current && (
-          <SlideButton onClick={(e) => e.stopPropagation() || instanceRef.current?.next()} />
+          <div className="button-container">
+            <SlideButton onClick={(e) => e.stopPropagation() || instanceRef.current?.next()} />
+          </div>
         )}
         <div ref={sliderRef} className="keen-slider">
           {cards.map((card, index) => (
@@ -115,7 +116,7 @@ function Home(props) {
 
 function SlideButton(click) {
   return (
-    <button onClick={click.onClick}>
+    <button onClick={click.onClick} className="slide-button">
       Desliza <i class="fa-solid fa-arrow-right"></i>
     </button>
   )
