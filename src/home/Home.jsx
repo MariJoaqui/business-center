@@ -43,6 +43,26 @@ function Home(props) {
       perView: 3,
       spacing: 70,
     },
+    breakpoints: {
+      '(max-width: 1355px)': {
+        slides: {
+          perView: 3,
+          spacing: 30,
+        },
+      },
+      '(max-width: 1185px)': {
+        slides: {
+          perView: 2,
+          spacing: 40,
+        },
+      },
+      '(max-width: 645px)': {
+        slides: {
+          perView: 1,
+          spacing: 40,
+        },
+      },
+    },
     initial: 0,
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);

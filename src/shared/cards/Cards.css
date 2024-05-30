@@ -19,3 +19,18 @@
   } 
 
 }
+@media (max-width: 1185px) {
+
+  .keen-slider__slide img {
+    height: 15rem;
+    margin: 1rem;
+  } 
+  .keen-slider__slide h5,
+  .keen-slider__slide h6 {
+    margin: 0 1rem 0.5rem 1rem;
+  }
+  .keen-slider__slide h6 {
+    margin-bottom: 1rem;
+  }
+
+}
