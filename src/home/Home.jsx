@@ -75,7 +75,7 @@ function Home(props) {
   return (
     <div className="body">
 
-      { /* ---------- Section 1 ---------- */}
+      {/* ---------- Section 1 ---------- */}
       <div className="home">
         <div className="navbar flex">
           <img
@@ -97,7 +97,7 @@ function Home(props) {
         </div>
       </div>
 
-      { /* ---------- Section 2 ---------- */}
+      {/* ---------- Section 2 ---------- */}
       <div className="about-us flex">
         <img src={require("../files/images/quienes-somos.jpg")} />
         <div className="text flex column">
@@ -114,7 +114,7 @@ function Home(props) {
         </div>
       </div>
 
-      { /* ---------- Section 3 ---------- */}
+      {/* ---------- Section 3 ---------- */}
       <div className="services">
         <h2>Nuestros Servicios</h2>
         {loaded && instanceRef.current && (
@@ -129,6 +129,11 @@ function Home(props) {
         </div>
         <h4>Somos la empresa más completa del mercado.</h4>
         <h6 className="text">Para más información consulta <a href="#">aquí.</a></h6>
+      </div>
+
+      {/* ---------- Section 4 ---------- */}
+      <div className="">
+        dfthfhythyt
       </div>
     </div>
   );
