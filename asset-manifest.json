@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/business-center/static/css/main.9a059e44.css",
+    "main.js": "/business-center/static/js/main.de9472fe.js",
+    "static/js/453.63512b3b.chunk.js": "/business-center/static/js/453.63512b3b.chunk.js",
+    "static/media/quienes-somos.jpg": "/business-center/static/media/quienes-somos.a7e08b5c5badc8104117.jpg",
+    "static/media/servicios-3.jpg": "/business-center/static/media/servicios-3.a053acc220434b9562cb.jpg",
+    "static/media/servicios-1.jpg": "/business-center/static/media/servicios-1.dbb3971d21a2a6dcccdb.jpg",
+    "static/media/servicios-2.jpg": "/business-center/static/media/servicios-2.ff749a18fe3473de504b.jpg",
+    "static/media/background-1.png": "/business-center/static/media/background-1.6d3f19b486e1cd1d49e4.png",
+    "static/media/logo-1.png": "/business-center/static/media/logo-1.89ce7896279e86757934.png",
+    "static/media/background-2.png": "/business-center/static/media/background-2.5fc3d00a35d97b05edd4.png",
+    "index.html": "/business-center/index.html",
+    "main.9a059e44.css.map": "/business-center/static/css/main.9a059e44.css.map",
+    "main.de9472fe.js.map": "/business-center/static/js/main.de9472fe.js.map",
+    "453.63512b3b.chunk.js.map": "/business-center/static/js/453.63512b3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a059e44.css",
+    "static/js/main.de9472fe.js"
+  ]
+}
