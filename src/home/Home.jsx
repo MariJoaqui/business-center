@@ -128,11 +128,17 @@ function Home(props) {
           ))}
         </div>
         <h4>Somos la empresa más completa del mercado.</h4>
-        <h6 className="text">Para más información consulta <a href="#">aquí.</a></h6>
+        <h6 className="text">
+          Para más información consulta&nbsp;
+          <a href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blanck">
+            aquí.
+          </a>
+        </h6>
       </div>
 
       {/* ---------- Section 4 ---------- */}
-      <div className="">
+      <div className="opinions">
         dfthfhythyt
       </div>
     </div>
