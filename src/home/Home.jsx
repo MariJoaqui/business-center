@@ -129,6 +129,34 @@ function Home(props) {
                     ))}
                 </div>
             </div>
+
+            {/* ---------- Footer ---------- */}
+            <div>
+                <div className="flex">
+                    <div className="flex blue-bg">
+                        <div className="white-bg">
+                            <img src={require("../files/images/logo-1.png")} />
+                        </div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <h5>Estamos ubicados en Santo Domingo, República Dominicana.</h5>
+                            <h5>Ofrecemos servicios para todo el mundo.</h5>
+                        </div>
+                        <div>
+                            <h5>Inicio</h5>
+                            <h5>¿Quiénes somos?</h5>
+                            <h5>Nuestros Servicios</h5>
+                            <h5>Testimonios</h5>
+                        </div>
+                    </div>
+                    <div className="icons flex column orange-bg">
+                        {icons.map((icon, index) => (
+                            <Icons key={index} src={icon.src} href={icon.href} />
+                        ))}
+                    </div>
+                </div>
+                <h6>© Todos los Derechos Reservados - 2024.</h6>
+            </div>
         </div>
     );
 }
