@@ -17,3 +17,15 @@
 .card h6 {
     font-weight: 500;
 }
+
+@media (max-width: 1185px) {
+
+    .card {
+        padding: 1.3rem 1.6rem;
+    }
+    .card h5 {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+}
