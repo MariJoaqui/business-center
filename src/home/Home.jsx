@@ -60,6 +60,7 @@ function Home(props) {
                     <img
                         className="logo"
                         src={require("../files/images/logo-1.png")}
+                        alt="logo"
                     />
                     <div className="icons flex column blue-bg">
                         {icons.map((icon, index) => (
@@ -79,7 +80,7 @@ function Home(props) {
 
             {/* ---------- Section 2 ---------- */}
             <div className="about-us flex">
-                <img src={require("../files/images/quienes-somos.jpg")} />
+                <img src={require("../files/images/quienes-somos.jpg")} alt="about-us" />
                 <div className="text flex column">
                     <h2>¿Quiénes somos?</h2>
                     <p>
@@ -131,30 +132,32 @@ function Home(props) {
             </div>
 
             {/* ---------- Footer ---------- */}
-            <div>
-                <div className="flex">
-                    <div className="flex blue-bg">
-                        <div className="white-bg">
-                            <img src={require("../files/images/logo-1.png")} />
-                        </div>
-                        <div>
-                            <h4>Ubicación</h4>
-                            <h5>Estamos ubicados en Santo Domingo, República Dominicana.</h5>
-                            <h5>Ofrecemos servicios para todo el mundo.</h5>
-                        </div>
-                        <div>
-                            <h5>Inicio</h5>
-                            <h5>¿Quiénes somos?</h5>
-                            <h5>Nuestros Servicios</h5>
-                            <h5>Testimonios</h5>
-                        </div>
+            <div className="footer flex">
+                <div className="flex blue-bg">
+                    <div className="logo white-bg">
+                        <a href="#">
+                            <img src={require("../files/images/logo-1.png")} alt="logo" />
+                        </a>
                     </div>
-                    <div className="icons flex column orange-bg">
-                        {icons.map((icon, index) => (
-                            <Icons key={index} src={icon.src} href={icon.href} />
-                        ))}
+                    <div>
+                        <h4>Ubicación</h4>
+                        <h5>Estamos ubicados en Santo Domingo, República Dominicana.</h5>
+                        <h5>Ofrecemos servicios para todo el mundo.</h5>
+                    </div>
+                    <div className="links">
+                        <h5>Inicio</h5>
+                        <h5>¿Quiénes somos?</h5>
+                        <h5>Nuestros Servicios</h5>
+                        <h5>Testimonios</h5>
                     </div>
                 </div>
+                <div className="icons flex column orange-bg">
+                    {icons.map((icon, index) => (
+                        <Icons key={index} src={icon.src} href={icon.href} />
+                    ))}
+                </div>
+            </div>
+            <div>
                 <h6>© Todos los Derechos Reservados - 2024.</h6>
             </div>
         </div>
