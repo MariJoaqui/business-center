@@ -8,6 +8,7 @@ import "keen-slider/keen-slider.min.css";
 // Components
 import Icons from "../shared/icons/Icons";
 import Cards from "../shared/cards/Cards";
+import Opinions from "../shared/opinions/Opinions";
 
 function Home(props) {
 
@@ -92,7 +93,8 @@ function Home(props) {
           />
           <div className="icons flex column blue-bg">
             {icons.map((icon, index) => (
-              <Icons key={index} src={icon.src} href={icon.href} />))}
+              <Icons key={index} src={icon.src} href={icon.href} />
+            ))}
           </div>
         </div>
         <div className="text">
@@ -152,22 +154,9 @@ function Home(props) {
         </div>
         <h4>Contamos con una larga trayectoria y nuestros clientes dan fe del buen servicio que ofrecemos.</h4>
         <div className="cards">
-          <div className="box">
-            <h5>Inspire International</h5>
-            <h6>Business Center representa una solida plataforma de apoyo para quienes desean incursionar con éxito en el emergente mercado Dominicano. Excelente atención e incomparable servicio.</h6>
-          </div>
-          <div className="box">
-            <h5>ITCS Americas S.A.</h5>
-            <h6>Nos complacemos en recomendar ampliamente a la empresa Business Center. Cada profesional que la conforma ha sido de gran apoyo para nuestra estrategia y desarrollo comercial.</h6>
-          </div>
-          <div className="box">
-            <h5>Latin Center Division</h5>
-            <h6>Nuestra experiencia utilizando los servicios de Business Center fue buena. Personas amables y serviciales que cumplían con lo solicitado, un salón de reuniones amplio y confortable, acompañado de un excelente servicio.</h6>
-          </div>
-          <div className="box">
-            <h5>Globa Terra</h5>
-            <h6>Nos complacemos en calificar favorablemente y recomendar el servicio de Oficinas Virtuales, y periféricos, que brinda la empresa Business Center con sus instalaciones en Santo Domingo, República Dominicana.</h6>
-          </div>
+          {opinions.map((opinion, index) => (
+            <Opinions key={index} title={opinion.title} description={opinion.description} />
+          ))}
         </div>
       </div>
     </div>
