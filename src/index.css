@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Scroll */
@@ -22,62 +22,48 @@ body::-webkit-scrollbar-thumb { background: #F47E1F; }
 
 /* Flex */
 .flex {
-  display: flex;
+    display: flex;
 }
 .column {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 /* Fonts */
 h1 { 
-  font-size: 3rem; 
+    font-size: 3rem; 
 }
 h2 { 
-  color: #0C2384;
-  font-size: 3rem; 
-  margin: 0;
+    color: #0C2384;
+    font-size: 3rem; 
+    margin: 0;
 }
 h4 { 
-  font-size: 1.8rem; 
+    font-size: 1.8rem; 
 }
 h5 {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 h6 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 a {
-  font-size: 1.7rem;
-  font-weight: 600;
-  text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
 }
 p {
-  font-size: 1.8rem;
-  font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 
 @media (max-width: 1185px) {
 
-  h2, h4, p {
-    line-height: 1.8rem !important;
-  }
-  h5, h6 {
-    line-height: 1.5rem;
-  }
-  h2 {
-    font-size: 1.8rem;
-  }
-  h4 {
-    font-size: 1.5rem;
-  }
-  h5 {
-    font-size: 1.3rem;
-  }
-  h6 {
-    font-size: 1.1rem;
-  }
-  p {
-    font-size: 1.2rem;
-  }
+    h2, h4, p { line-height: 1.8rem !important; }
+    h5, h6 { line-height: 1.5rem; }
+    h2 { font-size: 1.8rem; }
+    h4 { font-size: 1.5rem; }
+    h5 { font-size: 1.3rem; }
+    h6 { font-size: 1.1rem; }
+    p { font-size: 1.2rem; }
 
 }
