@@ -34,6 +34,14 @@ function Home(props) {
     { title: "Presencia en distintas plataformas", description: "Establece y mantén una fuerte presencia en diversas plataformas digitales.", src: require("../files/images/servicios-3.jpg") }
   ];
 
+  { /* Opinions */ }
+  const opinions = [
+    { title: "Inspire International", description: "Business Center representa una solida plataforma de apoyo para quienes desean incursionar con éxito en el emergente mercado Dominicano. Excelente atención e incomparable servicio." },
+    { title: "ITCS Americas S.A.", description: "Nos complacemos en recomendar ampliamente a la empresa Business Center. Cada profesional que la conforma ha sido de gran apoyo para nuestra estrategia y desarrollo comercial." },
+    { title: "Latin Center Division", description: "Nuestra experiencia utilizando los servicios de Business Center fue buena. Personas amables y serviciales que cumplían con lo solicitado, un salón de reuniones amplio y confortable, acompañado de un excelente servicio." },
+    { title: "Globa Terra", description: "Nos complacemos en calificar favorablemente y recomendar el servicio de Oficinas Virtuales, y periféricos, que brinda la empresa Business Center con sus instalaciones en Santo Domingo, República Dominicana." },
+  ];
+
   { /* Slider */ }
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
@@ -139,7 +147,28 @@ function Home(props) {
 
       {/* ---------- Section 4 ---------- */}
       <div className="opinions">
-        dfthfhythyt
+        <div className="title">
+          <h2>Testimonios</h2>
+        </div>
+        <h4>Contamos con una larga trayectoria y nuestros clientes dan fe del buen servicio que ofrecemos.</h4>
+        <div className="cards">
+          <div className="box">
+            <h5>Inspire International</h5>
+            <h6>Business Center representa una solida plataforma de apoyo para quienes desean incursionar con éxito en el emergente mercado Dominicano. Excelente atención e incomparable servicio.</h6>
+          </div>
+          <div className="box">
+            <h5>ITCS Americas S.A.</h5>
+            <h6>Nos complacemos en recomendar ampliamente a la empresa Business Center. Cada profesional que la conforma ha sido de gran apoyo para nuestra estrategia y desarrollo comercial.</h6>
+          </div>
+          <div className="box">
+            <h5>Latin Center Division</h5>
+            <h6>Nuestra experiencia utilizando los servicios de Business Center fue buena. Personas amables y serviciales que cumplían con lo solicitado, un salón de reuniones amplio y confortable, acompañado de un excelente servicio.</h6>
+          </div>
+          <div className="box">
+            <h5>Globa Terra</h5>
+            <h6>Nos complacemos en calificar favorablemente y recomendar el servicio de Oficinas Virtuales, y periféricos, que brinda la empresa Business Center con sus instalaciones en Santo Domingo, República Dominicana.</h6>
+          </div>
+        </div>
       </div>
     </div>
   );

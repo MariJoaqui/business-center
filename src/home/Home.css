@@ -119,6 +119,41 @@
   color: #020F49;
 }
 
+/* Opinions */
+.opinions {
+  background: url("../files/images/background-3.png");
+  background-size: cover;
+}
+.opinions .title {
+  background: #0C2384;
+  border-radius: 0 4rem 4rem 0;
+  margin: 6rem 0 4rem 0;
+  width: 30%;
+}
+.opinions .title h2 {
+  color: #FFFFFF;
+  padding-left: 5rem;
+  text-shadow: 2px 0px 1px #CE6109;
+}
+.opinions h4 {
+  font-weight: 500;
+  line-height: 2.3rem;
+  margin: 0 12% 4rem 12%;
+  text-align: center;
+}
+.opinions .cards {
+  display: grid;
+  gap: 4rem;
+  grid-row: auto auto;
+  grid-template-columns: 35% 35%;
+}
+.box {
+  background: #F5F5F5;
+  border: #CE6109 3px solid;
+  border-radius: 1.5rem;
+  box-shadow: 0px 5px 3px #d2d2d2;
+}
+
 @media (max-width: 1355px) {
 
   /* Home */
