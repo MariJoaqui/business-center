@@ -71,7 +71,7 @@ function Home(props) {
                 <div className="text">
                     <h1>Centro de soluciones digitales que ayudarán a crecer tu negocio en el mundo.</h1>
                     <h4 className="blue-text">Ayudamos a crecer empresas desde el 2008.</h4>
-                    <a className="white-text orange-bg"
+                    <a className="white-text orange-bg fw-600"
                         href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                         Más información
                     </a>
@@ -83,12 +83,12 @@ function Home(props) {
                 <img src={require("../files/images/quienes-somos.jpg")} alt="about-us" />
                 <div className="text flex column">
                     <h2>¿Quiénes somos?</h2>
-                    <p>
+                    <p className="fw-500">
                         Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica,
                         alineados bajo una visión que nos permite crear sinergia para potencializar el
                         crecimiento de su empresa.
                     </p>
-                    <a className="white-text orange-bg"
+                    <a className="white-text orange-bg fw-600"
                         href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                         Saber más
                     </a>
@@ -108,10 +108,11 @@ function Home(props) {
                         <Cards key={index} title={card.title} description={card.description} src={card.src} />
                     ))}
                 </div>
-                <h4>Somos la empresa más completa del mercado.</h4>
-                <h6 className="text">
+                <h4 className="fw-500">Somos la empresa más completa del mercado.</h4>
+                <h6 className="text fw-500">
                     Para más información consulta&nbsp;
-                    <a href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    <a className="fw-600"
+                        href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                         target="_blanck">
                         aquí.
                     </a>
@@ -123,7 +124,7 @@ function Home(props) {
                 <div className="title">
                     <h2>Testimonios</h2>
                 </div>
-                <h4>Contamos con una larga trayectoria y nuestros clientes dan fe del buen servicio que ofrecemos.</h4>
+                <h4 className="fw-500">Contamos con una larga trayectoria y nuestros clientes dan fe del buen servicio que ofrecemos.</h4>
                 <div className="cards">
                     {opinions.map((opinion, index) => (
                         <Opinions key={index} title={opinion.title} description={opinion.description} />
@@ -141,21 +142,21 @@ function Home(props) {
                     </div>
                     <div className="location">
                         <h4>Ubicación:</h4>
-                        <h5>Estamos ubicados en Santo Domingo, República Dominicana.</h5>
-                        <h5>Ofrecemos servicios para todo el mundo.</h5>
+                        <h5 className="fw-500">Estamos ubicados en Santo Domingo, República Dominicana.</h5>
+                        <h5 className="fw-400">Ofrecemos servicios para todo el mundo.</h5>
                     </div>
                     <div className="links">
                         <a href="#">
-                            <h5 className="white-text">Inicio</h5>
+                            <h5 className="white-text fw-500">Inicio</h5>
                         </a>
                         <a href="#">
-                            <h5 className="white-text">¿Quiénes somos?</h5>
+                            <h5 className="white-text fw-500">¿Quiénes somos?</h5>
                         </a>
                         <a href="#">
-                            <h5 className="white-text">Nuestros Servicios</h5>
+                            <h5 className="white-text fw-500">Nuestros Servicios</h5>
                         </a>
                         <a href="#">
-                            <h5 className="white-text">Testimonios</h5>
+                            <h5 className="white-text fw-500">Testimonios</h5>
                         </a>
                     </div>
                 </div>
@@ -174,7 +175,7 @@ function Home(props) {
 
 function SlideButton(click) {
     return (
-        <button onClick={click.onClick} className="slide-button">
+        <button onClick={click.onClick} className="slide-button fw-600">
             Desliza <i class="fa-solid fa-arrow-right"></i>
         </button>
     )

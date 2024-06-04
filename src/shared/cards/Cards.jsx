@@ -6,7 +6,7 @@ function Cards({ title, description, src }) {
         <div className="keen-slider__slide number-slide1 flex column">
             <img src={src} />
             <h5>{title}</h5>
-            <h6>{description}</h6>
+            <h6 className="fw-500">{description}</h6>
         </div>
     );
 }
