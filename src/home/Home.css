@@ -151,11 +151,31 @@
 
 /* Footer */
 .footer .blue-bg {
-    padding: 4rem 0 4rem 4rem;
+    align-items: center;
+    padding: 2.5rem 0 2.5rem 4rem;
     width: 100%;
 }
+.footer h5 {
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+.footer .logo,
+.footer .logo img {
+    height: 6rem;
+}
 .footer .logo {
-    border-radius: 3rem;
+    border-radius: 6rem;
+    padding: 0.5rem 1.5rem;
+}
+.footer .location {
+    margin: 0 3rem 0 18%;
+}
+.footer .location h4 {
+    margin: 0 0 1.2rem 0;
+}
+.footer .links {
+    margin-right: 2rem;
+    width: 20rem;
 }
 .footer .icons {
     margin-left: auto;

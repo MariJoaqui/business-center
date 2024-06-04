@@ -139,16 +139,24 @@ function Home(props) {
                             <img src={require("../files/images/logo-1.png")} alt="logo" />
                         </a>
                     </div>
-                    <div>
-                        <h4>Ubicación</h4>
+                    <div className="location">
+                        <h4>Ubicación:</h4>
                         <h5>Estamos ubicados en Santo Domingo, República Dominicana.</h5>
                         <h5>Ofrecemos servicios para todo el mundo.</h5>
                     </div>
                     <div className="links">
-                        <h5>Inicio</h5>
-                        <h5>¿Quiénes somos?</h5>
-                        <h5>Nuestros Servicios</h5>
-                        <h5>Testimonios</h5>
+                        <a href="#">
+                            <h5 className="white-text">Inicio</h5>
+                        </a>
+                        <a href="#">
+                            <h5 className="white-text">¿Quiénes somos?</h5>
+                        </a>
+                        <a href="#">
+                            <h5 className="white-text">Nuestros Servicios</h5>
+                        </a>
+                        <a href="#">
+                            <h5 className="white-text">Testimonios</h5>
+                        </a>
                     </div>
                 </div>
                 <div className="icons flex column orange-bg">
