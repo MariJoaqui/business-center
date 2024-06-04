@@ -82,7 +82,7 @@ function Home(props) {
             <div className="about-us flex">
                 <img src={require("../files/images/quienes-somos.jpg")} alt="about-us" />
                 <div className="text flex column">
-                    <h2>¿Quiénes somos?</h2>
+                    <h2 className="blue-text margin-0">¿Quiénes somos?</h2>
                     <p className="fw-500">
                         Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica,
                         alineados bajo una visión que nos permite crear sinergia para potencializar el
@@ -97,7 +97,7 @@ function Home(props) {
 
             {/* ---------- Section 3 ---------- */}
             <div className="services">
-                <h2>Nuestros Servicios</h2>
+                <h2 className="blue-text margin-0">Nuestros Servicios</h2>
                 {loaded && instanceRef.current && (
                     <div className="button-container">
                         <SlideButton onClick={(e) => e.stopPropagation() || instanceRef.current?.next()} />
@@ -122,7 +122,7 @@ function Home(props) {
             {/* ---------- Section 4 ---------- */}
             <div className="opinions">
                 <div className="title">
-                    <h2>Testimonios</h2>
+                    <h2 className="white-text margin-0">Testimonios</h2>
                 </div>
                 <h4 className="fw-500">Contamos con una larga trayectoria y nuestros clientes dan fe del buen servicio que ofrecemos.</h4>
                 <div className="cards">
@@ -142,8 +142,8 @@ function Home(props) {
                     </div>
                     <div className="location">
                         <h4>Ubicación:</h4>
-                        <h5 className="fw-500">Estamos ubicados en Santo Domingo, República Dominicana.</h5>
-                        <h5 className="fw-400">Ofrecemos servicios para todo el mundo.</h5>
+                        <h5 className="fw-500 margin-0">Estamos ubicados en Santo Domingo, República Dominicana.</h5>
+                        <h5 className="fw-400 margin-0">Ofrecemos servicios para todo el mundo.</h5>
                     </div>
                     <div className="links">
                         <a href="#">

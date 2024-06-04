@@ -128,7 +128,6 @@
     width: 27rem;
 }
 .opinions .title h2 {
-    color: #FFFFFF;
     padding-left: 5rem;
     text-shadow: 2px 0px 1px #F47E1F;
 }
@@ -164,9 +163,6 @@
 }
 .footer .location h4 {
     margin: 0 0 1.2rem 0;
-}
-.footer .location h5 {
-    margin: 0;
 }
 .footer .links {
     margin-right: 2rem;

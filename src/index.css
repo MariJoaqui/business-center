@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb { background: #F47E1F; }
 
 /* Fonts */
 h1 { font-size: 3rem; }
-h2 { color: #0C2384; font-size: 3rem; margin: 0; }
+h2 { font-size: 3rem; }
 h4 { font-size: 1.8rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
@@ -36,6 +36,9 @@ p { font-size: 1.8rem; }
 .fw-400 { font-weight: 400; }
 .fw-500 { font-weight: 500; }
 .fw-600 { font-weight: 600; }
+
+/* Margin */
+.margin-0 { margin: 0; }
 
 @media (max-width: 1185px) {
 
