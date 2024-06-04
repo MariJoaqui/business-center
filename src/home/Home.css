@@ -151,7 +151,11 @@
 
 /* Footer */
 .footer .blue-bg {
+    padding: 4rem 0 4rem 4rem;
     width: 100%;
+}
+.footer .logo {
+    border-radius: 3rem;
 }
 .footer .icons {
     margin-left: auto;
@@ -160,6 +164,13 @@
 .footer .icons img {
     height: 2.5rem;
     padding: 0.6rem 0;
+}
+.rights {
+    text-align: center;
+    width: 100%;
+}
+.rights h6 {
+    margin: 1.2rem 1.8rem;
 }
 
 @media (max-width: 1355px) {

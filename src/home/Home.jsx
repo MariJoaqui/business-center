@@ -132,7 +132,7 @@ function Home(props) {
             </div>
 
             {/* ---------- Footer ---------- */}
-            <div className="footer flex">
+            <div className="footer flex white-text">
                 <div className="flex blue-bg">
                     <div className="logo white-bg">
                         <a href="#">
@@ -157,7 +157,7 @@ function Home(props) {
                     ))}
                 </div>
             </div>
-            <div>
+            <div className="rights">
                 <h6>© Todos los Derechos Reservados - 2024.</h6>
             </div>
         </div>
