@@ -9,7 +9,7 @@ import { icons } from "../data/data";
 
 function Footer() {
     return (
-        <div className="">
+        <>
             <div className="footer flex white-text">
                 <div className="flex blue-bg">
                     <div className="logo white-bg">
@@ -20,7 +20,7 @@ function Footer() {
                     <div className="location">
                         <h4>Ubicación:</h4>
                         <h5 className="fw-500 margin-0">Estamos ubicados en Santo Domingo, República Dominicana.</h5>
-                        <h5 className="fw-400 margin-0">Ofrecemos servicios para todo el mundo.</h5>
+                        <h5 className="fw-300 margin-0">Ofrecemos servicios para todo el mundo.</h5>
                     </div>
                     <div className="links">
                         <a href="#">
@@ -46,7 +46,7 @@ function Footer() {
             <div className="rights">
                 <h6>© Todos los Derechos Reservados - 2024.</h6>
             </div>
-        </div>
+        </>
     );
 }
 
