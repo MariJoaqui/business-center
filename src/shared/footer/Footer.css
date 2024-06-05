@@ -1,0 +1,42 @@
+/* Footer */
+.footer .blue-bg {
+    align-items: center;
+    padding: 2rem 0 2rem 4rem;
+    width: 100%;
+}
+.footer .logo,
+.footer .logo img {
+    height: 6rem;
+}
+.footer .logo {
+    border-radius: 6rem;
+    padding: 0.5rem 1.5rem;
+}
+.footer .location {
+    margin: 0 3rem 0 18%;
+}
+.footer .location h4 {
+    margin: 0 0 1.2rem 0;
+}
+.footer .links {
+    margin-right: 2rem;
+    width: 20rem;
+}
+.footer .links h5 {
+    margin: 0.8rem 0 0.8rem 0;
+}
+.footer .icons {
+    margin-left: auto;
+    padding: 1.5rem;
+}
+.footer .icons img {
+    height: 2.5rem;
+    padding: 0.6rem 0;
+}
+.rights {
+    text-align: center;
+    width: 100%;
+}
+.rights h6 {
+    margin: 1.2rem 1.8rem;
+}
