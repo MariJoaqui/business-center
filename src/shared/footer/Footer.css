@@ -1,4 +1,3 @@
-/* Footer */
 .footer .blue-bg {
     align-items: center;
     padding: 2rem 0 2rem 4rem;
@@ -26,7 +25,7 @@
     margin-top: 0.6rem;
 }
 .footer .links {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     width: 20rem;
 }
 .footer .links h5 {
@@ -39,6 +38,7 @@
 .footer .icons {
     margin-left: auto;
     padding: 1.5rem;
+    justify-content: center;
 }
 .footer .icons img {
     height: 2.5rem;
@@ -50,4 +50,44 @@
 }
 .rights h6 {
     margin: 1.2rem 1.8rem;
+}
+
+@media (max-width: 1400px) {
+
+    .footer .location {
+        margin: 0 3rem 0 6%;
+    }
+
+}
+@media (max-width: 1240px) {
+
+    .footer, .footer .blue-bg {
+        flex-direction: column;
+    }
+    .footer .blue-bg {
+        padding: 2rem 2.4rem 0 2.4rem;
+        text-align: center;
+        width: auto;
+    }
+    .footer .logo,
+    .footer .logo img {
+        height: 3.5rem;
+        margin-bottom: 3rem;
+    }
+    .footer .location,
+    .footer .links {
+        margin: 0 0 2rem 0;
+    }
+    .footer .icons {
+        flex-direction: row;
+        margin: 0;
+        padding: 1rem;
+    }
+    .footer .icons a {
+        height: 2.5rem;
+    }
+    .footer .icons img {
+        padding: 0 1.5rem;
+    }
+
 }
