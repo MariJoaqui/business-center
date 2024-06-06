@@ -56,7 +56,7 @@ function Home(props) {
         <div className="body">
 
             {/* ---------- Section 1 ---------- */}
-            <div className="home">
+            <div id="home" className="home">
                 <div className="navbar flex">
                     <img
                         className="logo"
@@ -80,7 +80,7 @@ function Home(props) {
             </div>
 
             {/* ---------- Section 2 ---------- */}
-            <div className="about-us flex">
+            <div id="about-us" className="about-us flex">
                 <img src={require("../files/images/quienes-somos.jpg")} alt="about-us" />
                 <div className="text flex column">
                     <h2 className="blue-text margin-0">¿Quiénes somos?</h2>
@@ -97,7 +97,7 @@ function Home(props) {
             </div>
 
             {/* ---------- Section 3 ---------- */}
-            <div className="services">
+            <div id="services" className="services">
                 <h2 className="blue-text margin-0">Nuestros Servicios</h2>
                 {loaded && instanceRef.current && (
                     <div className="button-container">
@@ -121,7 +121,7 @@ function Home(props) {
             </div>
 
             {/* ---------- Section 4 ---------- */}
-            <div className="opinions">
+            <div id="opinions" className="opinions">
                 <div className="title">
                     <h2 className="white-text margin-0">Testimonios</h2>
                 </div>

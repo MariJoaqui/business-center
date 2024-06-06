@@ -23,16 +23,16 @@ function Footer() {
                         <h5 className="fw-300 margin-0">Ofrecemos servicios para todo el mundo.</h5>
                     </div>
                     <div className="links">
-                        <a href="#">
+                        <a href="#home">
                             <h5 className="white-text fw-500 transition-1">Inicio</h5>
                         </a>
-                        <a href="#">
+                        <a href="#about-us">
                             <h5 className="white-text fw-500 transition-1">¿Quiénes somos?</h5>
                         </a>
-                        <a href="#">
+                        <a href="#services">
                             <h5 className="white-text fw-500 transition-1">Nuestros Servicios</h5>
                         </a>
-                        <a href="#">
+                        <a href="#opinions">
                             <h5 className="white-text fw-500 transition-1">Testimonios</h5>
                         </a>
                     </div>
