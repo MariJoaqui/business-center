@@ -82,7 +82,7 @@ function Home(props) {
 
             {/* ---------- Section 2 ---------- */}
             <div id="about-us" className="about-us flex">
-                <img src={require("../files/images/quienes-somos.jpg")} alt="about-us" />
+                <img src={require("../files/images/about-us.jpg")} alt="about-us" />
                 <div className="text flex column">
                     <h2 className="blue-text margin-0">¿Quiénes somos?</h2>
                     <p className="fw-500">
