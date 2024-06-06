@@ -1,7 +1,7 @@
 export const icons = [
-    { src: require("../../files/images/i-whatsapp.png"), href: "#" },
+    { src: require("../../files/images/i-whatsapp.png"), href: "https://wa.me/18293342016" },
     { src: require("../../files/images/i-instagram.png"), href: "https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
-    { src: require("../../files/images/i-youtube.png"), href: "#" }
+    { src: require("../../files/images/i-youtube.png"), href: "https://youtube.com/@businesscenter5721?si=F8Le1_27fy499F_Q" }
 ];
 
 export const cards = [

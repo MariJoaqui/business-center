@@ -73,7 +73,8 @@ function Home(props) {
                     <h1>Centro de soluciones digitales que ayudarán a crecer tu negocio en el mundo.</h1>
                     <h4 className="blue-text">Ayudamos a crecer empresas desde el 2008.</h4>
                     <a className="white-text orange-bg fw-600 transition-1"
-                        href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blanck">
                         Más información
                     </a>
                 </div>
@@ -85,12 +86,12 @@ function Home(props) {
                 <div className="text flex column">
                     <h2 className="blue-text margin-0">¿Quiénes somos?</h2>
                     <p className="fw-500">
-                        Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica,
-                        alineados bajo una visión que nos permite crear sinergia para potencializar el
-                        crecimiento de su empresa.
+                        Somos un equipo multidisciplinario, integrado bajo una plataforma tecnológica, alineados bajo una visión que
+                        nos permite crear sinergia para potencializar el crecimiento de su empresa.
                     </p>
                     <a className="white-text orange-bg fw-600 transition-1"
-                        href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blanck">
                         Saber más
                     </a>
                 </div>

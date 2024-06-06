@@ -2,7 +2,7 @@ import React from "react";
 
 function Icons({ src, href }) {
     return (
-        <a href={href}>
+        <a href={href} target="_blanck">
             <img src={src} alt="icons" />
         </a>
     );

@@ -13,7 +13,7 @@ function Footer() {
             <div className="footer flex white-text">
                 <div className="flex blue-bg">
                     <div className="logo white-bg transition-1">
-                        <a href="#">
+                        <a href="#home">
                             <img src={require("../../files/images/logo-1.png")} alt="logo" />
                         </a>
                     </div>
