@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/business-center/static/css/main.2fc74338.css",
-    "main.js": "/business-center/static/js/main.6ed4e232.js",
+    "main.css": "/business-center/static/css/main.1d07c8bf.css",
+    "main.js": "/business-center/static/js/main.36f84a03.js",
     "static/js/453.63512b3b.chunk.js": "/business-center/static/js/453.63512b3b.chunk.js",
-    "static/media/quienes-somos.jpg": "/business-center/static/media/quienes-somos.a7e08b5c5badc8104117.jpg",
-    "static/media/servicios-3.jpg": "/business-center/static/media/servicios-3.a053acc220434b9562cb.jpg",
-    "static/media/servicios-1.jpg": "/business-center/static/media/servicios-1.dbb3971d21a2a6dcccdb.jpg",
-    "static/media/servicios-2.jpg": "/business-center/static/media/servicios-2.ff749a18fe3473de504b.jpg",
+    "static/media/about-us.jpg": "/business-center/static/media/about-us.d0057a8c937614a5d805.jpg",
+    "static/media/services-2.jpg": "/business-center/static/media/services-2.fe23b668c102fc866e41.jpg",
+    "static/media/services-6.jpg": "/business-center/static/media/services-6.fe5f88b986fb11474f69.jpg",
+    "static/media/services-7.jpg": "/business-center/static/media/services-7.78c0ac62525482aec185.jpg",
+    "static/media/services-10.jpg": "/business-center/static/media/services-10.b93c0954354f2083a747.jpg",
+    "static/media/services-8.jpg": "/business-center/static/media/services-8.6bdaa45d1973a813d784.jpg",
+    "static/media/services-1.jpg": "/business-center/static/media/services-1.33523a9be5443d933f6d.jpg",
+    "static/media/services-12.jpg": "/business-center/static/media/services-12.9c454053436e1d69823c.jpg",
+    "static/media/services-11.jpg": "/business-center/static/media/services-11.328e238b103e865cf65e.jpg",
+    "static/media/services-5.jpg": "/business-center/static/media/services-5.e13156db50f583f60467.jpg",
+    "static/media/services-4.jpg": "/business-center/static/media/services-4.cd8755c842e4e7775a64.jpg",
+    "static/media/services-9.jpg": "/business-center/static/media/services-9.5549791baa35f264802d.jpg",
     "static/media/background-1.png": "/business-center/static/media/background-1.6d3f19b486e1cd1d49e4.png",
+    "static/media/services-3.jpg": "/business-center/static/media/services-3.54e1cb9e378f967939ba.jpg",
     "static/media/logo-1.png": "/business-center/static/media/logo-1.89ce7896279e86757934.png",
     "static/media/background-3.png": "/business-center/static/media/background-3.b694d5c1bae663668cce.png",
     "static/media/background-2.png": "/business-center/static/media/background-2.5fc3d00a35d97b05edd4.png",
     "index.html": "/business-center/index.html",
-    "main.2fc74338.css.map": "/business-center/static/css/main.2fc74338.css.map",
-    "main.6ed4e232.js.map": "/business-center/static/js/main.6ed4e232.js.map",
+    "main.1d07c8bf.css.map": "/business-center/static/css/main.1d07c8bf.css.map",
+    "main.36f84a03.js.map": "/business-center/static/js/main.36f84a03.js.map",
     "453.63512b3b.chunk.js.map": "/business-center/static/js/453.63512b3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fc74338.css",
-    "static/js/main.6ed4e232.js"
+    "static/css/main.1d07c8bf.css",
+    "static/js/main.36f84a03.js"
   ]
 }
