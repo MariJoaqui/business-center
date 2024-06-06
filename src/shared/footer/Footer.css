@@ -12,6 +12,9 @@
     border-radius: 6rem;
     padding: 0.5rem 1.5rem;
 }
+.footer .logo:hover {
+    background: #D1D1D1;
+}
 .footer .location {
     margin: 0 3rem 0 18%;
 }
@@ -29,6 +32,9 @@
 .footer .links h5 {
     font-style: italic;
     margin: 0.8rem 0 0.8rem 0;
+}
+.footer .links h5:hover {
+    color: #F0C486;
 }
 .footer .icons {
     margin-left: auto;

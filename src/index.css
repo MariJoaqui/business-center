@@ -41,6 +41,9 @@ p { font-size: 1.8rem; }
 /* Margin */
 .margin-0 { margin: 0; }
 
+/* Transitions */
+.transition-1 { transition: 0.5s; }
+
 @media (max-width: 1185px) {
 
     h2, h4, p { line-height: 1.8rem !important; }

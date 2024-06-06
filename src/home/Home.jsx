@@ -72,7 +72,7 @@ function Home(props) {
                 <div className="text">
                     <h1>Centro de soluciones digitales que ayudarán a crecer tu negocio en el mundo.</h1>
                     <h4 className="blue-text">Ayudamos a crecer empresas desde el 2008.</h4>
-                    <a className="white-text orange-bg fw-600"
+                    <a className="white-text orange-bg fw-600 transition-1"
                         href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                         Más información
                     </a>
@@ -89,7 +89,7 @@ function Home(props) {
                         alineados bajo una visión que nos permite crear sinergia para potencializar el
                         crecimiento de su empresa.
                     </p>
-                    <a className="white-text orange-bg fw-600"
+                    <a className="white-text orange-bg fw-600 transition-1"
                         href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                         Saber más
                     </a>
@@ -112,7 +112,7 @@ function Home(props) {
                 <h4 className="fw-500">Somos la empresa más completa del mercado.</h4>
                 <h6 className="text fw-500">
                     Para más información consulta&nbsp;
-                    <a className="fw-600"
+                    <a className="fw-600 transition-1"
                         href="https://www.instagram.com/businesscenterrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                         target="_blanck">
                         aquí.
@@ -141,7 +141,7 @@ function Home(props) {
 
 function SlideButton(click) {
     return (
-        <button onClick={click.onClick} className="slide-button fw-600">
+        <button onClick={click.onClick} className="slide-button fw-600 transition-1">
             Desliza <i class="fa-solid fa-arrow-right"></i>
         </button>
     )

@@ -12,7 +12,7 @@ function Footer() {
         <>
             <div className="footer flex white-text">
                 <div className="flex blue-bg">
-                    <div className="logo white-bg">
+                    <div className="logo white-bg transition-1">
                         <a href="#">
                             <img src={require("../../files/images/logo-1.png")} alt="logo" />
                         </a>
@@ -24,16 +24,16 @@ function Footer() {
                     </div>
                     <div className="links">
                         <a href="#">
-                            <h5 className="white-text fw-500">Inicio</h5>
+                            <h5 className="white-text fw-500 transition-1">Inicio</h5>
                         </a>
                         <a href="#">
-                            <h5 className="white-text fw-500">¿Quiénes somos?</h5>
+                            <h5 className="white-text fw-500 transition-1">¿Quiénes somos?</h5>
                         </a>
                         <a href="#">
-                            <h5 className="white-text fw-500">Nuestros Servicios</h5>
+                            <h5 className="white-text fw-500 transition-1">Nuestros Servicios</h5>
                         </a>
                         <a href="#">
-                            <h5 className="white-text fw-500">Testimonios</h5>
+                            <h5 className="white-text fw-500 transition-1">Testimonios</h5>
                         </a>
                     </div>
                 </div>
